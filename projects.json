@@ -1,0 +1,90 @@
+{
+    "projects": [
+        {
+            "image": "/portfolio-2023/Trivia-app.png",
+            "title": "TRIVIA APP",
+            "desc": "Una app de trivia desarrollada con React y Tailwind, consumiendo la api de opentdb.com para obtener una lista de preguntas y respuestas.",
+            "links": [
+                {
+                    "github": "https://github.com/LeonardoCarrasco/Trivia-app",
+                    "site": "https://leonardocarrasco.github.io/Trivia-app/"
+                }
+            ],
+            "tags": [
+                {
+                    "tag": "React",
+                    "color": "#00D8FF"
+                },
+                {
+                    "tag": "Tailwind",
+                    "color": "#23BCBC"
+                },
+                {
+                    "tag": "Vite",
+                    "color": "#bd34fe"
+                },
+                {
+                    "tag": "API",
+                    "color": "#B8B2B2"
+                }
+            ],
+            "order": 0
+        },
+        {
+            "image": "/portfolio-2023/MFS.png",
+            "title": "My Favorite Skaters",
+            "desc": "Una landing page sobre mis skater favoritos, una pagina sencilla con 4 skaters con su biografia, redes, etc . Creada con react, tailwind, react-router.",
+            "links": [
+                {
+                    "github": "https://github.com/LeonardoCarrasco/My-Favorite-Skaters.",
+                    "site": "https://leonardocarrasco.github.io/My-Favorite-Skaters./"
+                }
+            ],
+            "tags": [
+                {
+                    "tag": "React",
+                    "color": "#00D8FF"
+                },
+                {
+                    "tag": "Tailwind",
+                    "color": "#23BCBC"
+                },
+                {
+                    "tag": "Vite",
+                    "color": "#bd34fe"
+                }
+            ],
+            "order": "1"
+        },
+        {
+            "image": "/portfolio-2023/cat-gallery.png",
+            "title": "Cat Gallery",
+            "desc": "Una galleria sobre gatitos creada con react, tailwind, vite en la que puedes poner tus favoritos y se guardan localmente ",
+            "links": [
+                {
+                    "github": "https://github.com/LeonardoCarrasco/Cat-Gallery",
+                    "site": "https://leonardocarrasco.github.io/Cat-Gallery/"
+                }
+            ],
+            "tags": [
+                {
+                    "tag": "React",
+                    "color": "#00D8FF"
+                },
+                {
+                    "tag": "Tailwind",
+                    "color": "#23BCBC"
+                },
+                {
+                    "tag": "Vite",
+                    "color": "#bd34fe"
+                },
+                {
+                    "tag": "API",
+                    "color": "#B8B2B2"
+                }
+            ],
+            "order": 0
+        }
+    ]
+}
