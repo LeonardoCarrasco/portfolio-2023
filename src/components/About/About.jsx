@@ -2,6 +2,11 @@ import { Skills } from "./Skills"
 import me from "../../assets/imgs/profile-pic.png"
 import eclipse from "../../assets/imgs/eclipse-gradient.svg"
 
+const beatmakingStyle = {
+    textDecoration: "underline",
+    color: "#D6FF79",
+}
+
 export const About = () => {
     return (
         <section className="lg:py-14 py-5" id="sobremi">
@@ -10,14 +15,14 @@ export const About = () => {
             <div className=" text-grey-text-2 text-[17px] flex items-center flex-col sm:flex-row gap-4 sm:gap-0">
                 <div className="">
                     <p className="mb-4">
-                        Tengo <em>24 años</em>, estoy aprendiendo desarrollo Front End con <strong className="text-[#58B9C7]">React.</strong> 
+                        Tengo <em className=" text-green-400">24 años</em>, estoy aprendiendo desarrollo Front End con <strong className="text-[#58B9C7]">React.</strong> 
                         <br/>Me interesa la tecnología y los nuevos avances.
                     </p>
                     <p className="mb-4">
-                        Actualmente, estoy estudiando la <em>Tecnicatura en Desarrollo Web</em> en la Universidad del Comahue Neuquen, Arg. para <em>mejorar mis habilidades</em> y adquirir <em>conocimientos más avanzados.</em>
+                        Actualmente, estoy estudiando la <em className=" text-fuchsia-400">Tecnicatura en Desarrollo Web</em> en la Universidad del Comahue Neuquen, Arg. para <em>mejorar mis habilidades</em> y adquirir <em>conocimientos más avanzados.</em>
                     </p>
                     <p className="mb-4">
-                        En mi tiempo libre, me gusta experimentar con nuevas tecnologías y herramientas. También disfruto de jugar videjuegos, Producir ritmos (BeatMaking) y andar en Skate.
+                        En mi tiempo libre, me gusta experimentar con nuevas tecnologías y herramientas. También disfruto de jugar videjuegos, Producir ritmos (<a style={beatmakingStyle} href="https://www.youtube.com/@iLeoBeatz" target="blank">BeatMaking</a>) y andar en Skate.
                     </p>
                 </div>
                 <figure className="w-full relative">
